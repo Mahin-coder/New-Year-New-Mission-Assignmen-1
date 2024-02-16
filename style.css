@@ -238,3 +238,75 @@ body {
 }
 
 .year_sticker {}
+
+/*offer section ends*/
+/*discount section starts*/
+.discount_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.discount_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    margin-bottom: 160px;
+}
+
+.discount_title1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(7, 2, 17);
+}
+
+.discount_title2 {
+    font-size: 72px;
+    font-weight: 900;
+    font-family: "Merriweather", serif;
+    color: rgb(7, 2, 17);
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+
+.discount_title2 span {
+    color: #ff0000;
+}
+
+.discount_description {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(7, 2, 17, .6);
+    text-align: center;
+}
+
+.discount_images {
+    height: 663px;
+}
+
+.group75 {
+    position: relative;
+    top: -149px;
+    left: -79px;
+}
+
+.Rectangle1 {
+    position: relative;
+    top: -230px;
+    left: 0;
+}
+
+.group44 {
+    position: relative;
+    top: -572px;
+    left: 654px;
+}
+
+.Rectangle2 {
+    position: relative;
+    top: -543px;
+    left: -90px;
+}
