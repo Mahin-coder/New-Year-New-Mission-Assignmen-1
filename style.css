@@ -18,7 +18,7 @@ body {
 
 /*header banner1 starts*/
 .header_banner1 {
-    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(./Images/Banner\ Image.png);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .9), rgba(0, 0, 0, .2)), url(./Images/Banner\ Image.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -93,6 +93,7 @@ body {
     background-size: cover;
     background-position: center;
     border-radius: 16px;
+    margin-bottom: 120px;
 }
 
 .banner2_info {
@@ -133,3 +134,103 @@ body {
 }
 
 /*header banner2 ends*/
+.main_section {}
+
+/*join section starts*/
+.join_section {
+    padding: 105px 386px;
+    background-image: linear-gradient(to bottom, #ffe5e5, #ffffff);
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+
+.join_desc {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.join_desc h3 {
+    font-weight: 500;
+}
+
+.join_date {
+    line-height: 70px;
+}
+
+.join_desc h3 span {
+    color: #ff0000;
+}
+
+.join_button {
+    text-align: center;
+}
+
+.btn {
+    border-style: none;
+    color: #ffff;
+    background-color: #ff0000;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+/*join section ends*/
+/*offer section starts*/
+.offer_section {
+    display: flex;
+    align-items: center;
+    gap: 116px;
+}
+
+.offer_info {}
+
+.offer_title1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+}
+
+.offer_title2 {
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.offer_desc {
+    font-size: 20px;
+    font-weight: 400;
+    color: #85838a;
+}
+
+.offer_image {}
+
+.offer_image img {
+    display: inline-block;
+    height: 369px;
+    width: 369px;
+    border: 12px solid red;
+    border-radius: 50%;
+    padding: 23px;
+}
+
+.offer_year {}
+
+.year {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+}
+
+.year_info {
+    font-size: 20px;
+    font-weight: 400;
+    color: #85838a;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.year_sticker {}
