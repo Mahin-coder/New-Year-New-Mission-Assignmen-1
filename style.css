@@ -3,3 +3,133 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Inter", sans-serif;
+    /*font-family: "Merriweather", serif;*/
+}
+
+.header_section {}
+
+.container {
+    max-width: 1420px;
+    margin: 0 auto;
+}
+
+/*header banner1 starts*/
+.header_banner1 {
+    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(./Images/Banner\ Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 177px 344px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.banner1_title {
+    text-align: center;
+    font-family: "Merriweather", serif;
+    color: rgb(255, 255, 255);
+}
+
+.banner1_title h3 {
+    font-size: 32px;
+    line-height: 67px;
+    font-weight: 400;
+}
+
+.banner1_title h2 {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/*header banner1 ends*/
+/*header add starts*/
+.header_add {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-bottom: 120px;
+}
+
+.add_title {
+    color: rgb(255, 0, 0);
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.add_title h2 {}
+
+.add_description {}
+
+.add_description h4 {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 43px;
+}
+
+.add_description h3 {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.add_image {}
+
+/*header add ends*/
+/*header banner2 starts*/
+.header_banner2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .9), rgba(0, 0, 0, .1)), url(Images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.banner2_info {
+    color: white;
+}
+
+.banner2_title {
+    font-family: Merriweather;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.banner2_title h2 {}
+
+.banner2_description {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.banner2_description p {}
+
+.banner2_button {}
+
+.banner2_button a {
+    text-decoration: none;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.banner2_image {
+    padding-top: 67px;
+    padding-bottom: 67px;
+}
+
+/*header banner2 ends*/
