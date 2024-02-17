@@ -359,3 +359,57 @@ body {
 }
 
 /*products section ends*/
+/*Subscribe section srats*/
+.subscribe_section {
+    background-color: #fff2f2;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub_info {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.mail_image {}
+
+.sub_title {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "Merriweather", serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.sub_desc {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(7, 2, 17, .6);
+    margin-bottom: 48px;
+}
+
+.form_area {
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.form {}
+
+.form-box {
+    height: 55px;
+    width: 300px;
+    border-radius: 35px 0px 0px 35px;
+    padding: 30px 25px 25px 30px;
+    border-style: none;
+}
+
+.sub_btn {
+    background-color: #ff0000;
+    border-style: none;
+    padding: 20px 45px;
+    color: white;
+    font-weight: 600;
+    border-radius: 0px 35px 35px 0px;
+}
