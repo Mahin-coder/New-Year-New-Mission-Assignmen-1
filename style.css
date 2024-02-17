@@ -9,7 +9,7 @@ body {
     /*font-family: "Merriweather", serif;*/
 }
 
-.header_section {}
+
 
 .container {
     max-width: 1420px;
@@ -62,8 +62,6 @@ body {
     font-weight: 700;
 }
 
-.add_title h2 {}
-
 .add_description {}
 
 .add_description h4 {
@@ -79,7 +77,6 @@ body {
     font-weight: 700;
 }
 
-.add_image {}
 
 /*header add ends*/
 /*header banner2 starts*/
@@ -106,7 +103,6 @@ body {
     font-weight: 900;
 }
 
-.banner2_title h2 {}
 
 .banner2_description {
     font-family: Inter;
@@ -116,9 +112,7 @@ body {
     margin-bottom: 30px;
 }
 
-.banner2_description p {}
 
-.banner2_button {}
 
 .banner2_button a {
     text-decoration: none;
@@ -134,7 +128,6 @@ body {
 }
 
 /*header banner2 ends*/
-.main_section {}
 
 /*join section starts*/
 .join_section {
@@ -186,8 +179,6 @@ body {
     justify-content: center;
 }
 
-.offer_info {}
-
 .offer_title1 {
     font-size: 24px;
     font-weight: 500;
@@ -209,7 +200,6 @@ body {
     width: 396px;
 }
 
-.offer_image {}
 
 .offer_image img {
     display: inline-block;
@@ -219,8 +209,6 @@ body {
     border-radius: 50%;
     padding: 23px;
 }
-
-.offer_year {}
 
 .year {
     font-size: 48px;
@@ -236,8 +224,6 @@ body {
     margin-bottom: 40px;
     width: 271px;
 }
-
-.year_sticker {}
 
 /*offer section ends*/
 /*discount section starts*/
@@ -374,7 +360,7 @@ body {
     padding-top: 80px;
 }
 
-.mail_image {}
+
 
 .sub_title {
     font-size: 48px;
@@ -396,7 +382,6 @@ body {
     padding-bottom: 80px;
 }
 
-.form {}
 
 .form-box {
     height: 55px;
@@ -427,7 +412,6 @@ footer {
     padding-top: 120px;
 }
 
-.address {}
 
 .address p {
     color: white;
@@ -435,7 +419,6 @@ footer {
     font-weight: 500;
 }
 
-.email_phone {}
 
 .email_phone p {
     color: white;
