@@ -366,6 +366,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 120px;
 }
 
 .sub_info {
@@ -412,4 +413,56 @@ body {
     color: white;
     font-weight: 600;
     border-radius: 0px 35px 35px 0px;
+}
+
+/*subscribe section ends*/
+footer {
+    background-color: rgb(7, 2, 17);
+}
+
+.contact_section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding-top: 120px;
+}
+
+.address {}
+
+.address p {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.email_phone {}
+
+.email_phone p {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.contact_icon {
+    display: inline-block;
+}
+
+.website_section {
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    letter-spacing: 26px;
+}
+
+.copyright_section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-bottom: 120px;
+}
+
+.copyright_section p {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
 }
