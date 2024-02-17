@@ -289,24 +289,73 @@ body {
 
 .group75 {
     position: relative;
-    top: -149px;
-    left: -79px;
+    top: -1px;
+    left: 11px;
+    z-index: 3;
 }
 
 .Rectangle1 {
     position: relative;
-    top: -230px;
-    left: 0;
+    top: -229px;
+    left: 90px;
 }
 
 .group44 {
     position: relative;
     top: -572px;
-    left: 654px;
+    left: 732px;
 }
 
 .Rectangle2 {
     position: relative;
     top: -543px;
-    left: -90px;
+    left: 0px;
+    z-index: 2;
 }
+
+/*discount section ends*/
+/*products section starts*/
+.products_section {
+    margin-bottom: 120px;
+}
+
+.products_info {
+    margin-bottom: 48px;
+}
+
+.products_title1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #ff0000;
+}
+
+.products_title2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+    font-family: "Merriweather", serif;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.products_desc {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(7, 2, 17, .6);
+}
+
+.products_images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.products_images img {
+    transition: .3s;
+}
+
+.products_images img:hover {
+    transform: scale(1.1);
+}
+
+/*products section ends*/
